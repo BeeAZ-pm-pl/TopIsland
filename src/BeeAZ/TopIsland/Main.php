@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener {
         
   public $config;
   
-  public $user;
+  public $users;
         
   public function onEnable(): void {
    $folder = $this->getDataFolder();
@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener {
    $type = "place";
    $player->sendMessage("§c=======§e Top Island §c======");
    $player->sendMessage($this->sort($type));
-        }
+   }
    }else{
    $player->sendMessage("Please Use Command In Game");
    }
