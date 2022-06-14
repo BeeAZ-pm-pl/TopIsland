@@ -1,10 +1,8 @@
 name: TopIsland
 main: BeeAZ\TopIsland\Main
 version: 1.0.0
-api:
- - 4.0.0
-author:
- - BeeAZ-pm-pl
+api: 4.0.0
+author: BeeAZ-pm-pl
 
 commands:
   topisland:
@@ -12,5 +10,5 @@ commands:
     aliases: ["topis"]
     permission: topisland.command
 permissions:
- topisland.command:
-  default: true
+  topisland.command:
+   default: true
